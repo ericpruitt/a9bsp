@@ -222,7 +222,7 @@ class AccessibleBSP:
             actually_had_solution = True
 
             solset = frozenset((i for i in solution if i > 0))
-            if max_group_size is None or len(solset) < max_group_size:
+            if max_group_size is None or len(solset) <= max_group_size:
                 solutions.append(frozenset((i for i in solution if i > 0)))
 
         if not solutions:
