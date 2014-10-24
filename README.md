@@ -3,7 +3,7 @@ a9bsp
 
 The name "a9bsp" is short for Accessible Boolean Satisfiability Problem: the
 ultimate goal of this library is to make satisfiability problems more
-accessible to individuals without a strong backgrounds in logical theory or
+accessible to individuals without strong backgrounds in logical theory or
 mathematics. Built on top of [pycosat](https://github.com/ContinuumIO/pycosat),
 the library has straightforward, descriptive functions that generate equivalent
 boolean satisfiability rules.
